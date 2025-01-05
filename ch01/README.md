@@ -2,6 +2,10 @@
 
 
 &nbsp;
+## My notes
+- [ch01_my_notes.ipynb](ch01_my_notes.ipynb)
+
+&nbsp;
 ## Main Chapter Code
 
 There is no code in this chapter.
