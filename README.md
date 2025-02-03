@@ -37,6 +37,18 @@ The mental model below summarizes the contents covered in this book.
 
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg" width="650px">
 
+<br>
+&nbsp;
+
+## Todo & Questions
+- **Chapter 2**
+  - [ ] If the self-attention mechanism is position-agnostic, why do we need positional encodings?
+  - [ ] Explore bonus chapters: 
+    - [ ] Byte Pair Encoding (BPE)
+    - [ ] Embedding vs Matmul
+    - [ ] Dataloader Intuition
+- Chapter 3
+
 ## Hardware Requirements
 
 The code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. This approach ensures that a wide audience can engage with the material. Additionally, the code automatically utilizes GPUs if they are available. (Please see the [setup](https://github.com/rasbt/LLMs-from-scratch/blob/main/setup/README.md) doc for additional recommendations.)
