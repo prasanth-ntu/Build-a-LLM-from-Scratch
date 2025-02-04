@@ -47,7 +47,11 @@ The mental model below summarizes the contents covered in this book.
     - [ ] Byte Pair Encoding (BPE)
     - [ ] Embedding vs Matmul
     - [ ] Dataloader Intuition
-- Chapter 3
+  - [ ] Why is the same positional encoding used/broadcasted for all inputs in the batch (of `context_size=4`)? Shouldn't each unique input tensor (of `context_size=4`) have its own unique positional encoding?
+- **Chapter 3**
+  - [ ] Recurrent Neural Networks (RNNs)
+    - [ ] Why "RNN cannot directly access earlier hidden state from the encoder during the decoding phase." is a problem/limitation leading to loss of context?
+  - ...
 
 ## Hardware Requirements
 
