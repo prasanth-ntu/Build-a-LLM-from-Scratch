@@ -48,9 +48,13 @@ The mental model below summarizes the contents covered in this book.
     - [ ] Embedding vs Matmul
     - [ ] Dataloader Intuition
   - [ ] Why is the same positional encoding used/broadcasted for all inputs in the batch (of `context_size=4`)? Shouldn't each unique input tensor (of `context_size=4`) have its own unique positional encoding?
+  - [ ] Intuitition for positional embeddings (and how they bring value vs. attention mechanism)
 - **Chapter 3**
   - [ ] Recurrent Neural Networks (RNNs)
     - [ ] Why "RNN cannot directly access earlier hidden state from the encoder during the decoding phase." is a problem/limitation leading to loss of context?
+  - [ ] Normalization
+    - [ ] Why normalization of attention score in Ch 3.3 self-attention mechanism? How does it help with LLM training stability?
+    - [ ] Softmax function is better at managing extreme values and offers more favorable gradient properties during training
   - ...
 
 ## Hardware Requirements
